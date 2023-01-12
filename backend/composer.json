@@ -1,0 +1,29 @@
+{
+    "name": "andata/spa",
+    "type": "project",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7",
+        "vimeo/psalm": "^3.15",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Pakhomov",
+            "email": "andrey.pahomov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "vpa/di": "^0.4",
+        "httpsoft/http-message": "^1.0",
+        "httpsoft/http-server-request": "^1.0",
+        "httpsoft/http-response": "^1.0",
+      "ext-pdo": "*"
+    }
+}
